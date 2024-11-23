@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 100vh;           /* makes sure it occupies full viewport height */
+    margin: 0;   
+    background-color: rgb(12, 73, 92);  
+    height: inherit;  
+    height: max-content;       /* removes any default margin from the body */
+  }
+  
+
+
+.resume-container{
+    color: rgb(15, 17, 17);
+    width: 800px;
+    height: auto;
+    align-self: center;
+    background-color: rgb(219, 225, 228);
+    padding: 5px;
+    height:900px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+    
+}
+
+.header-section{
+    background-color: rgb(22, 6, 97);
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 100px;  
+    box-shadow: 0 2px 4px rgba(219, 5, 5, 0.2);
+          /* makes sure it occupies full viewport height */
+}
+
+.profile-pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+header{
+    background-color: hsl(240, 100%, 50%);
+    text-align: center;
+    display: flex;
+    align-items: top;
+
+}
+
+footer{
+    align-self: flex-end;
+    background-color: rgb(22, 6, 97);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px ;
+    color: white;
+    font-size: 22;
+}
+
+
+button:hover{
+    background-color: rgb(204, 81, 10);
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
